@@ -1,0 +1,30 @@
+SIFT Windows info collection script output file
+
+Current date and time: 2023-01-29 22:25:33.044254Eastern Standard Time
+This computers current uptime is: 0 days, 17:22:15
+Operating system: Windows 10 10.0.19044
+CPU Architecture: AMD64
+Amount of free RAM (bytes): 44344868864
+Amount of used RAM (bytes): 24213880832
+File system disk space usage information:
+DriveLetter FriendlyName FileSystemType DriveType HealthStatus OperationalStatus SizeRemaining      Size
+----------- ------------ -------------- --------- ------------ ----------------- -------------      ----
+C                        NTFS           Fixed     Healthy      OK                    236.03 GB 931.01 GB
+                         NTFS           Fixed     Healthy      OK                     85.05 MB    509 MB
+
+
+Hostname: NETSEC-18
+
+Currently logged on users:
+student
+
+List of all users:
+student
+
+List of all running processes (only first 5 are shown):
+pid        Process name
+0          System Idle Process
+4          System
+172        Registry
+716        smss.exe
+836        csrss.exe
