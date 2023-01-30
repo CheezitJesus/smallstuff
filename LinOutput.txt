@@ -1,0 +1,74 @@
+SIFT Linux info collection script output
+current date and time:2023-01-30 03:28:21.671314 UTC
+This computer has been up 4 hours, 23 minutes
+Operating system: Ubuntu 20.04.2 LTS
+Kernel version: 5.4.0-77-generic
+CPU architecture: x86_64
+Amount of free physical memory: 454380
+Amount of used physical memory: 3575744
+File system disk space usage information:
+Filesystem     1K-blocks    Used Available Use% Mounted on
+udev             1968480       0   1968480   0% /dev
+tmpfs             403016    2948    400068   1% /run
+/dev/sda2      500946168 8726424 466703408   2% /
+tmpfs            2015060       0   2015060   0% /dev/shm
+tmpfs               5120       0      5120   0% /run/lock
+tmpfs            2015060       0   2015060   0% /sys/fs/cgroup
+tmpfs             403012      60    402952   1% /run/user/1000
+List of all partitions:
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda      8:0    0 488.3G  0 disk 
+├─sda1   8:1    0   1.9G  0 part [SWAP]
+└─sda2   8:2    0 486.4G  0 part /
+sr0     11:0    1  1024M  0 rom  
+Hostname: siftworkstation
+All currently logged in users:
+ 03:28:21 up  4:23,  1 user,  load average: 0.10, 0.04, 0.01
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+sansfore :0       :0               23:04   ?xdm?  11:28   0.00s /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+
+List of all users (only first 5 shown):
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+
+List of all users with uid=0:
+root:x:0:0:root:/root:/bin/bash
+
+All SUID files owned by root (only first 5 shown)
+/usr/bin/su
+/usr/bin/umount
+/usr/bin/fusermount
+/usr/bin/vmware-user-suid-wrapper
+/usr/bin/newgrp
+
+List of all processes (only first 5 shown)
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.3 168484 12460 ?        Ss   Jan29   0:05 /sbin/init
+root           2  0.0  0.0      0     0 ?        S    Jan29   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   Jan29   0:00 [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   Jan29   0:00 [rcu_par_gp]
+root           6  0.0  0.0      0     0 ?        I<   Jan29   0:00 [kworker/0:0H-kblockd]
+
+List of all files opened by netcat (only first 5 be shown)
+COMMAND   PID          USER   FD   TYPE DEVICE SIZE/OFF     NODE NAME
+nc      34327 sansforensics  cwd    DIR    8,2     4096  3145730 /home/sansforensics
+nc      34327 sansforensics  rtd    DIR    8,2     4096        2 /
+nc      34327 sansforensics  txt    REG    8,2    43664 19928134 /usr/bin/nc.openbsd
+nc      34327 sansforensics  mem    REG    8,2  2029224 19928386 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+nc      34327 sansforensics  mem    REG    8,2   101320 19928400 /usr/lib/x86_64-linux-gnu/libresolv-2.31.so
+
+List of all deleted files (only first 5 shown):
+COMMAND     PID          USER   FD   TYPE DEVICE SIZE/OFF NLINK     NODE NAME
+pulseaudi  5680 sansforensics    6u   REG    0,1 67108864     0    37709 /memfd:pulseaudio (deleted)
+gnome-she  6447 sansforensics   16r   REG    8,2       64     0  3145768 /home/sansforensics/.local/share/gvfs-metadata/root (deleted)
+gnome-she  6447 sansforensics   23r   REG    8,2    32768     0  3146562 /home/sansforensics/.local/share/gvfs-metadata/root-f7b378f6.log (deleted)
+evolution  7176 sansforensics   13r   REG    8,2       64     0  3145907 /home/sansforensics/.local/share/gvfs-metadata/home (deleted)
+evolution  7176 sansforensics   14r   REG    8,2    32768     0  3145908 /home/sansforensics/.local/share/gvfs-metadata/home-cbcc9605.log (deleted)
+
+Files wihtin home directory modified within the last 24 hours:
+  3146225      4 -rw-rw-r--   1 sansforensics sansforensics        9 Jan 30 03:17 /home/sansforensics/test.txt
+  3146563      4 -rw-rw-r--   1 sansforensics sansforensics       21 Jan 30 01:00 /home/sansforensics/testing/test.txt
+
